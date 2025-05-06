@@ -34,7 +34,32 @@ _(Replace with your actual video URL)_
 
 ## 🚀 How to Run
 
-1. **Clone the repo**:
+ **Clone the repo**:
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe-ai.git
    cd tic-tac-toe-ai
+
+   Run the script:
+
+
+python tic_tac_toe_ai.py
+Choose a game mode:
+
+1 — Human vs Human
+
+2 — Human vs AI (Minimax / Alpha-Beta)
+
+3 — Compare AI performance
+
+4 — Exit
+
+📊 Sample Performance Comparison
+Algorithm	                Time Taken	           Nodes Evaluated
+Minimax	                      0.08s	                 5496
+Alpha-Beta Pruning             0.01s	                 1237
+
+(Note: Results may vary depending on the state of the board and your system.)
+
+
+👨‍💻 Author
+MAHNOOR SHAMIM
